@@ -32,11 +32,11 @@ fun main() {
     var t2 = Termino(4,1)
     var t3 = Termino(-3,0)
     var p1 = Polinomio(listOf(t1,t2,t3))
-    println(p1)
     var t4 = Termino(1,2)
     var t5 = Termino(6,1)
     var t6 = Termino(-2,0)
     var t7 = Termino(4,2)
     var p2 = Polinomio(listOf(t1,t2,t3))
     println(p1)
+    println(p2)
 }
